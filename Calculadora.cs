@@ -11,7 +11,7 @@ namespace Semana2_primer_proyecto_visual_c_sharp_consola
         static void Main(string[] args)
         {
             // Declarar variables y luego inicializar a cero.
-            float num1 = 0; float num2 = 0;
+            double num1 = 0; double num2 = 0;
 
             // Mostrar el título como la aplicación de calculadora de la consola C#.
             Console.WriteLine("Consola Calculadora en C#\r");
@@ -19,11 +19,11 @@ namespace Semana2_primer_proyecto_visual_c_sharp_consola
 
             // Pida al usuario que escriba el primer número.
             Console.WriteLine("Escriba un número, y luego presione Enter");
-            num1 = Convert.ToInt32(Console.ReadLine());
+            num1 = Convert.ToDouble(Console.ReadLine());
 
             // Pida al usuario que escriba el segundo número.
             Console.WriteLine("Escriba otro número, y luego presione Enter");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            num2 = Convert.ToDouble(Console.ReadLine());
 
             // Pídale al usuario que elija una opción.
             Console.WriteLine("Elija una opción de la siguiente lista:");

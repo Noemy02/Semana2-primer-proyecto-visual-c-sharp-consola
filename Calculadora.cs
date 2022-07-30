@@ -11,7 +11,7 @@ namespace Semana2_primer_proyecto_visual_c_sharp_consola
         static void Main(string[] args)
         {
             // Declarar variables y luego inicializar a cero.
-            int num1 = 0; int num2 = 0;
+            float num1 = 0; float num2 = 0;
 
             // Mostrar el título como la aplicación de calculadora de la consola C#.
             Console.WriteLine("Consola Calculadora en C#\r");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Semana2_primer_proyecto_visual_c_sharp_consola
 {
-    class Program
+    class Calculadora
     {
         static void Main(string[] args)
         {

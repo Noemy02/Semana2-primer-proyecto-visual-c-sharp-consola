@@ -46,6 +46,12 @@ namespace Semana2_primer_proyecto_visual_c_sharp_consola
                     Console.WriteLine($"Tu resultado: {num1} * {num2} = " + (num1 * num2));
                     break;
                 case "d":
+                    //Pida al usuario que ingrese un divisor distinto de cero hasta que lo haga.
+                    while (num2 == 0)
+                    {
+                        Console.WriteLine("Introduzca un divisor distinto de cero: ");
+                        num2 = Convert.ToDouble(Console.ReadLine());
+                    }
                     Console.WriteLine($"Tu resultado: {num1} / {num2} = " + (num1 / num2));
                     break;
             }
